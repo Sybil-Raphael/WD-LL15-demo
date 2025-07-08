@@ -12,6 +12,33 @@
   <div class="container">
     <h1>🧊 Fillr</h1>
     <p>Your Icebreaker &amp; Conversation Starter</p>
+    <!-- Persona dropdown -->
+    <div class="persona-dropdown" style="margin-bottom: 18px; text-align: left;">
+      <label for="personaSelect">Choose a persona:</label>
+      <select id="personaSelect">
+        <option value="intern">Friendly intern with emojis</option>
+        <option value="wizard">Wise wizard</option>
+        <option value="pirate">Pirate adventurer</option>
+        <option value="robot">Helpful robot</option>
+        <option value="detective">Detective</option>
+        <option value="chef">Cheerful chef</option>
+        <option value="astronaut">Friendly astronaut</option>
+        <option value="puppy">Playful puppy</option>
+        <option value="skateboarder">Cool skateboarder</option>
+      </select>
+    </div>
+    <!-- Context dropdown -->
+    <div class="context-dropdown">
+      <label for="contextSelect" class="context-label">Choose a context:</label>
+      <select id="contextSelect" class="context-select">
+        <option value="default">Default (friendly and casual)</option>
+        <option value="kids">For kids</option>
+        <option value="work">For work</option>
+        <option value="party">For a party</option>
+        <option value="classroom">For a classroom</option>
+        <option value="family">For family</option>
+      </select>
+    </div>
     <!-- Icebreaker buttons -->
     <div id="icebreaker-buttons">
       <button type="button" id="iceBtn">
