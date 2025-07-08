@@ -126,6 +126,33 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
+.persona-dropdown {
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.persona-dropdown label {
+  font-size: 16px;
+  color: #5e548e;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 8px;
+}
+
+#personaSelect {
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1.5px solid #b4aee8;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  background: #f8f8ff;
+  color: #5e548e;
+  font-family: 'Inter', sans-serif;
+}
+
 .app-footer {
   margin-top: 32px;
   text-align: center;

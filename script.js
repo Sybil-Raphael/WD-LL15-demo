@@ -74,7 +74,7 @@ async function getOpenAIResponse(prompt) {
       { role: "system", content: systemPrompt },
       { role: "user", content: prompt }
     ],
-    max_tokens: 80,
+    max_tokens: 300,
     temperature: 0.8
   };
 
